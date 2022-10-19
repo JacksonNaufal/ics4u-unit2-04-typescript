@@ -50,8 +50,12 @@ if (stackNum.StackArray().length !== 0) {
   console.log(stackNum.StackArray())
 
   // Peak in to the array
-  console.log('Peak into the array')
+  console.log('\nPeak into the array')
   console.log(`The top number is ${stackNum.Peak()}!`)
+
+  // Clears the array
+  console.log('\nThis is the cleared array!')
+  console.log(`The cleared array looks like ${stackNum.Clear()}`)
 } else {
   console.log('Nothing in stack')
 }

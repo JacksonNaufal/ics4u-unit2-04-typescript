@@ -4,7 +4,7 @@
  *
  * By:      Jackson Naufal
  * Version: 1.0
- * Since:   2020-10-04
+ * Since:   2020-10-19
  */
 
 class JacksonStack {
@@ -37,6 +37,11 @@ class JacksonStack {
     } else {
       return 'Nothing in stack'
     }
+  }
+
+  // this clears the stack
+  Clear(): number {
+    return (this.stackClass.length = -0)
   }
 }
 
